@@ -4,6 +4,7 @@
 import Link from "next/link";
 import AuthHandler_Btn from "./auth/actions/client/authHandler_Btn";
 import { auth } from "./api/auth";
+import AppBar from "@/components/EA/appbar";
 
 
 export default async function HomePage() {
@@ -12,7 +13,8 @@ export default async function HomePage() {
    ;
    
    return( <>
-      <main className="w-full min-h-[100dvh] bg-slate-950">
+      <main className="relative w-full min-h-[100dvh] bg-slate-950">
+         <AppBar />
          {/* <section relative title="oi" height="81px" className="bg-[#da2070]"> */}
          <section className="bg-[#da2070]">
             {
