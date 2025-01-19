@@ -1,0 +1,51 @@
+
+
+/**
+ * Btn
+ */
+.btn {
+   display: flex;
+   align-items: center;
+   flex:1;
+   width: 100%;
+   padding: .3em 0;
+}
+
+.btn > input {
+   flex-direction: row; 
+   background-image: linear-gradient(
+      to right, #e64c93, #f7b5d4
+   );
+   border-radius: 55em;
+   box-shadow: #0005 0 0 10px;
+   box-shadow: 0px 0px 0 #8a96a3, #3693 0 0 0 5px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   width: 100%;
+   height: 46px;
+   gap: .5em;
+   text-transform: uppercase;
+   color: #fff;
+   font-size: .8em;
+   font-weight: 500;
+   text-transform: capitalize;
+   cursor: pointer;
+   transition: all ease-in-out .2s;
+}
+.btn > input:hover {
+   /* transform: scale(  ); */
+   transition: all ease-in-out .2s;
+   box-shadow: -2px 3px 0 #8a96a3;
+   transform: translate(1px);
+   background-image: linear-gradient(
+      95deg, #e64c93, #f7b5d4
+      );
+}
+   
+.btn > input:active {
+   transform: translateY( 3px );
+   transition: all ease-in .1s;
+   box-shadow: 0px 0px 0 #8a96a3;
+}
+

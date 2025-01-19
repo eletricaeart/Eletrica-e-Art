@@ -1,9 +1,9 @@
 
 
 // templatePage.tsx
+import AuthHandler_Btn from "../auth/actions/client/authHandler_Btn";
 import Link from "next/link";
-import AuthHandler_Btn from "./auth/actions/client/authHandler_Btn";
-import { auth } from "./api/auth";
+import { auth } from "../api/auth";
 
 
 export default async function HomePage() {
